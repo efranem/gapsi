@@ -1,0 +1,32 @@
+﻿{"detailResponse": {
+    "code": "200",
+    "severityLevel": 1,
+    "description": "Se encontraron registros",
+    "actor": "BD_ORACLE_CACHE",
+    "businessMeaning": "Existen Registro"
+},
+"consultaConfigResponse": {
+    "consultaConfigResponse": [
+        {
+            "key": "7040ce88de4c8cda15db1105db61dc48c0e75969",
+            "idconfig": "ser012",
+            "servicio": "ser73",
+            "operacion": "73",
+            "version": "v53",
+            "sendBy": "S53",
+            "canal": "53",
+            "usuario": "system1"
+        },
+        {
+            "key": "d81dc2e44c64fa8e2e3f0fed6e761db51b6bb9a5",
+            "idconfig": "ser01",
+            "servicio": "ser1",
+            "operacion": "1",
+            "version": "v",
+            "sendBy": "S1",
+            "canal": "1",
+            "usuario": "system1"
+        }
+    ]
+}
+}

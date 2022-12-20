@@ -1,0 +1,17 @@
+[
+  {
+    "nombre": "Jose",
+    "razonSocial": "XYX",
+    "direccion": "provedor XYX . . . "
+  },
+  {
+    "nombre": "Efra",
+    "razonSocial": "123",
+    "direccion": "proveedor 123 . . . "
+  },
+  {
+    "nombre": "Prueba",
+    "razonSocial": "XYZ",
+    "direccion": "Priv XYZ"
+  }
+]

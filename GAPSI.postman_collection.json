@@ -1,0 +1,97 @@
+{
+	"info": {
+		"_postman_id": "b9d30e41-65c9-4355-845c-82a4cb0d1516",
+		"name": "GAPSI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "8054246"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000/proveedores",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/proveedores",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"proveedores"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/proveedor",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/proveedores/Efras",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"proveedores",
+						"Efras"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/proveedor",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/proveedores/Luis",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"proveedores",
+						"Luis"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/proveedores",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"nombre\": \"Luis\",\n    \"razonSocial\": \"XYX123\",\n    \"direccion\": \"calle x numero y, colonia z \"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/proveedores",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"proveedores"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
